@@ -1,0 +1,28 @@
+
+<div class="container-id">
+<div class="img">
+<img src="{{movies.image}}" alt="">
+</div>
+<div class="text">
+<h3><strong>{{movies.title}}</strong></h3>
+<p>Director: <strong>{{movies.director}}</strong></p>
+<p>Actores:
+{{#each movies.stars}}
+    <strong>{{this}}</strong>{{#unless @last}}, {{/unless}}
+{{/each}}
+</p>
+<p>Descripción: <strong>{{movies.description}}</strong></p>
+<p>Horarios:
+  {{#each movies.showtimes}}
+    <strong>{{this}}</strong>{{#unless @last}}, {{/unless}}
+  {{/each}}
+</p>
+</div>
+</div>
+<a class="goback" href="/">Volver al inicio</a>
+
+
+
+    
+    
+  

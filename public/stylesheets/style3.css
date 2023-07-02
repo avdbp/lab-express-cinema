@@ -1,0 +1,31 @@
+.container-id {
+    display: flex;
+    margin: 60px;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+h3 {
+    font-size: 40px;
+}
+p {
+    font-size: 20px;
+}
+img {
+    scale: 180%;
+}
+.img {
+    margin: 20px;
+}
+.text {
+margin: 50px;
+padding-left: 50px;
+}
+
+.goback {
+    font-size: 18px;
+    text-align: center;
+    margin-left: 120px;
+    color: #00B7FF;
+    text-decoration: none;
+}

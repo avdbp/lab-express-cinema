@@ -1,0 +1,35 @@
+body {
+    margin-left: 0px;
+
+.title-page{
+    margin-left: 50px;
+}
+}
+h2 {
+    font-size: 42px;
+}
+h3{
+    font-size: 28px;
+}
+
+a {
+    color: #00B7FF;
+    text-decoration:none;
+  }
+.cards-container{
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+}
+.cards-title {
+    font-size: 20px;
+    margin: 15px 0px 15px 0px;
+}
+
+.link-movie {
+    margin-bottom: 50px;
+}
